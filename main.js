@@ -7,6 +7,6 @@ var addtwo = require('./addtwo.js').addtwo;
 http.createServer(function (req,res) {
     var base = 10;
     console.log(addtwo(base));
-}).listen(8124);
+}).listen(8080);
 
 console.log('Server running at port 8124/');
